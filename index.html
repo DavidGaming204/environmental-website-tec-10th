@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <title>Sitio Web S-7 Skolmi DRNC</title>
+        <style>
+            body {
+                background-color : rgb(52, 52, 52);
+                color: white;
+                font-family: 'Segoe UI', sans-serif, Arial;
+                font-size: 1.5em;
+            }
+
+            .titles {
+                font-size: 3em;
+                color: greenyellow;
+                text-shadow: black 7px 7px 0;
+                text-align: center;
+            }
+
+            a:link {
+                color: gold;
+            }
+
+            a:visited {
+                color:goldenrod;
+            }
+
+            #Inicio {
+                font-family:'Times New Roman', Times, serif;
+            }
+
+            p {
+                text-shadow: black 3px 3px 0;
+            }
+            
+            #personal-info {
+                color: rgb(124, 124, 124);
+                font-size: 0.5em;
+                text-align: center;
+            }
+
+            #images {
+                text-align: center;
+            }
+
+            table {
+                text-shadow: black 3px 3px 0;
+            }
+
+            #fertilizer {
+                text-align: center;
+            }
+
+            .list-links {
+                text-shadow:none;
+            }
+            
+            a:hover {
+                color: rgb(255, 244, 48);
+            }
+
+            #article-1-images {
+                text-align: center;
+            }
+
+            .image.grow {
+                transition: all .2s ease-in-out;
+            }
+
+            .image:hover {
+                transform: scale(1.2);
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            div nav {
+                text-align: center;
+            }
+
+            div nav ul {
+                display: inline-block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            div nav ul li  {
+                float: left;
+            }
+
+            div nav ul li a {
+                display: block;
+                padding: 10px;
+            }
+
+            #start-button {
+                text-align: center;
+            }
+
+            button:hover {
+                background-color: aqua;
+            }
+
+            button:active {
+                background-color: rgb(0, 179, 179);
+            }
+
+            .fertilizer-list-top {
+                color: rgb(0, 127, 169);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .fertilizer-list-steps {
+                color: rgb(0, 72, 255);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            #header-image {
+                width: 40%;
+                position: relative;
+                top: -60px;
+                left: 850px;
+            }
+
+            #Inicio {
+                position: relative;
+                top: 300px;
+                left: -250px;
+            }
+
+            #description {
+                position:relative;
+                width: 55%;
+            }
+
+            #mail-link {
+                color: rgb(124,124,124);
+            }
+
+            #sec-asi {
+                text-align: right;
+                position: relative;
+                top: -190px;
+                left: 59%;
+                width: 40%;
+            }
+
+            #sec-footer {
+                color: rgb(195, 195, 195);
+                text-align: center;
+            }
+
+            #header-subtext {
+                font-size: 40px;
+                text-align: left;
+                position: absolute;
+                left: 20%
+            }
+
+            .card-body {
+                color: black;
+            }
+
+            #bst-button {
+                position: relative;
+                left: 0.5%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <a id="bst-button" class="btn btn-outline-primary mb-4" data-bs-toggle="collapse" href="#collapse-bs-info" role="button" aria-expanded="false" aria-controls="collapse-bs-info">Bootstrap</a>
+
+        <div class="collapse" id="collapse-bs-info">
+            <div class="card card-body">
+                Este sitio utiliza Bootstrap 5.3.2 mediante componentes, instalados usando el metodo CDN.
+            </div>
+        </div>
+        <header id="Inicio" charset="utf-8" class="titles"><strong>Bitácora Ambiental</strong><p id="header-subtext">Creando conciencia para ciudades más verdes</p></header>
+        
+        <img id="header-image" class="image grow" src="img/title-card.jpg" alt="">
+        <div>
+            <nav style="background-color: rgb(32,32,32);">
+                <ul>
+                    <li><a href="#list">Lista de temas</a></li>
+                    <li><a href="#fertilizer">Abonos y Compostaje</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="description">
+            <p>
+                En este sitio encontraras información sobre temas ambientales, <br>
+                la importancia de cuidar nuestros ecosistemas, el papel que tenemos como individuos en el cuidado del ambiente, <br>
+                y como podemos transformar espacios urbanos en pequeños huertos y jardines.
+            </p>
+        </section>
+
+        <aside id="sec-asi">
+            <p><strong>La vida humana, animal, vegetal, y de toda naturaleza, depende del equilibrio en los ecosistemas. <br>
+                Agua, tierra, aire, pH, Temperatura, entre otros factores, son indispensables para la vida, <br>
+                y por lo tanto es necesario que aprendamos sobre ellos, sus ciclos, su incidencia en los diferentes estados bióticos y abióticos. <br>
+                Ser responsables de las mayores catástrofes y contaminación, nos hace tambien responsables de su recuperación. <br>
+                Aprende conmigo, navegando en esta pagina!</strong></p>
+        </aside>
+
+        <footer id="sec-footer">
+            <em>Pagina creada por David Ricardo Neira Cáceres, estudiante de Skolmi, con fines didacticos y de aprendizaje. <br>
+            Imagenes tomadas de la web, encontradas a través de Imagenes de Google y fotografías personales del huerto y jardin urbano de mi hogar.</em>
+        </footer>
+
+        <section>
+            <article>
+                <h2 class="titles">Historia de mi jardin urbano</h2>
+                <p>
+                    Desde niño he vivido en el campo, pero por dificultades con el agua potable, el acceso a internet y las constantes fallas del sistema de electricidad de la zona, tuvimos que volver a la ciudad. Ahora bien, estamos en una zona urbana, pero muy cerca a lo rural. Aún tenemos montañas, riachuelos y zonas verdes amplias alrededor, pero ya en una parte de la ciudad donde si hay acceso a agua potable y demás servicios que son fundamentales para mí preparación académica, y para los cuidados médicos y de salud de mi abuela en situación de postración por cáncer y de mi madre, quién hace más de 10 años quedó en condición de discapacidad física por un accidente de trabajo. Al volver, la casa se sentía vacía, no sólo por la muerte de mi abuelo, sino por la falta que nos hacía tener de nuevo nuestros jardines y plantas. Y aunque seguimos viajando todos los fines de semana a la casa en la vereda, para velar por ella, no es lo mismo, volver a una casa sin nada de verde en ella. Entonces, como homenaje a mi abuelo, que amaba la naturaleza y soñaba con irse a vivir del todo al campo, con mi madre, empezamos a sembrar plantas y flores en nuestro hogar. 
+                    Hoy en día tenemos más de 30 plantas, de diferente tipo, mucho orégano y algunos frutales que sembramos desde la pepita, y que ahora tienen un metro o más de altas, las cuales esperamos trasladar pronto a la vereda, para verlas crecer y producir limones, limón mandarino, aguacate, naranjas y mandarinas. 
+                    También hemos sembrado cilantro, perejil, pimentón, ají picante y algunas especias, como romero, albahaca, tomillo, ruda, entre otras. Tengo el proyecto ampliar de manera vertical y crear un pequeño huerto urbano, que nos permita cosechar algunos alimentos, en un tiempo no muy lejano. 
+                    Para esto, he aprendido a usar los residuos orgánicos para hacer abono natural y aguas de riego, que permiten nutrir nuestras plantas. <br>
+                </p>
+                <p id="article-1-images"><img class="image grow" src="img/article-img-1.jpg" alt="" width="400"> <br> <br>
+                    <img class="image grow" src="img/article-img-2.png" alt="" width="400"> <br>
+                </p> <p>   Temas que tocaré más a fondo en próximos artículos. Espero me acompañen en este proyecto, para que aprendamos juntos.
+                
+                </p>
+                <p id="list"> 
+                    <a target="_blank" href="http://www.bbva.com/es/sostenibilidad/que-es-el-medioambiente-y-por-que-es-clave-para-la-vida/" class="list-links">-Importancia del medio ambiente en la vida de los seres humanos.</a> <br>
+                    <a target="_blank" href="http://www.ecologiaverde.com/por-que-es-importante-cuidar-el-agua-2116.html" class="list-links">-Por que debemos cuidar el agua? Cuales son los peligros que enfrentamos sin agua consumible?</a> <br>
+                    <a target="_blank" href="http://www.fao.org/fao-stories/article/es/c/1126977/" class="list-links">-Contaminación de los suelos -- Como las actividades del hombre perjudican las condiciones del suelo. </a> <br>
+                    <a target="_blank" href="http://www.ecologiaverde.com/la-contaminacion-luminica-como-afecta-a-los-seres-vivos-1204.html" class="list-links">-Contaminación luminica</a> y <a target="_blank" href="http://www.eea.europa.eu/es/articles/la-contaminacion-acustica-es-un" class="list-links">contaminación auditiva</a> -- Como afecta a los seres vivos? <br>
+                    <a target="_blank" href="http://www.ecologiaverde.com/bioindicadores-que-son-tipos-y-ejemplos-2846.html" class="list-links">-Bioindicadores -- Que son, y como funcionan?</a> <br>
+                    <a target="_blank" href="http://www.ecoembes.com/es/reduce-reutiliza-y-recicla/beneficios-de-reciclar" class="list-links">-Que es y para que sirve reciclar?</a> <br>
+                    <a target="_blank" href="http://centrors.org/consumo-responsable-una-practica-que-favorece-el-medio-ambient/" class="list-links">-Por que es importante ser un consumidor eco-responsable. </a> <br>
+                    <a target="_blank" href="http://www.bbva.com/es/sostenibilidad/que-es-el-reciclaje-y-por-que-es-importante-reciclar/" class="list-links">-Como podemos reducir, reutilizar, y reciclar en casa. </a> <br>
+                    <a target="_blank" href="http://blog.oxfamintermon.org/como-hacer-compost-casero/" class="list-links">-Compostaje casero -- Como utilizar tus residuos organicos para hacer abono. </a> <br>
+                    <a target="_blank" href="http://www.esneca.com/blog/como-plantar-semillas-pasos/" class="list-links">-Sembrar en macetas desde semillas: Paso a paso como hacerlo. </a> <br>
+                    <a target="_blank" href="http://www.gastrolabweb.com/tips/2022/4/29/tips-para-preparar-el-agua-de-riego-de-tu-huerto-casero-dales-mas-vida-tus-cultivos-23388.html" class="list-links">-Como preparar aguas nutritivas para el riego de tu jardin o huerto casero. </a> <br>
+                    <a target="_blank" href="http://www.youtube.com/watch?v=2A9OgcwcJzg" class="list-links">-Uso del calendario lunar para procesos de fertilización, transplante y poda. </a> <br> <br> <br>
+                </p>
+            </article>
+        </section>
+        <aside>
+            <a target="_blank" href="http://www.facebook.com/media/set?vanity=johana.caceres1&set=a.10162927317418128" id="gallery">Galeria de imagenes</a>
+        </aside>
+        <aside id="fertilizer">
+            <p>Abonos y Compostaje <br></p>
+            <table>
+                <tr>
+                    <th class="fertilizer-list-top">
+                        Agua con vinagre de manzana y miel
+                    </th>
+                    <th class="fertilizer-list-top">
+                        Agua de arroz
+                    </th>
+                    <th class="fertilizer-list-top">
+                        Agua de cascaras de zanahoria y papa
+                    </th>
+                </tr>
+                <tr>
+                    <td class="fertilizer-list-steps">
+                        1 litro de agua lluvia
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        2 litros de agua
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        2 litros de agua
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fertilizer-list-steps">
+                        Media taza de vinagre de manzana
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        En esa agua, cocinar una taza de arroz
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        Cocinar 2 tazas de cascaras de zanahoria y papa
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fertilizer-list-steps">
+                        Tres cucharadas de miel de abeja natural
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        Licuar y colar
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        Ya frio, añadir 3 cucharadas de melaza de panela
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fertilizer-list-steps">
+                        Agregar un chorrito en la tierra de las plantas cada 20 dias
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        Añadir a las plantas una vez al mes
+                    </td>
+                    <td class="fertilizer-list-steps">
+                        Añadir un litro de agua limpia, y regar con esto cada 15 dias
+                    </td>
+                </tr>
+            </table>
+        </aside>
+
+        <aside>
+            <p><a class="list-links" target="_blank" href="http://docs.google.com/document/d/1w1WHr3-aXByT9FZR8LFBBz3Yd2C5YGdC/edit?usp=sharing&ouid=115609426185202235272&rtpof=true&sd=true">Reciclar y reutilizar</a></p>
+        </aside>
+
+        <p>
+            Te gustaria poner a prueba tus conocimientos ambientales, y divertirte al mismo tiempo? <br>
+            <strong>Mira estos juegos!</strong> <br>
+            <a class="btn btn-outline-secondary mb-4" role="button" target="_blank" href="http://puzzel.org/es/crossword/play?p=-Nflpi4NE0kZDMonD9nP">Crucigrama</a> <a class="btn btn-outline-secondary mb-4" role="button" target="_blank" href="http://puzzel.org/es/wordseeker/play?p=-NfltpHLcCZ0W5fB0dtq">Sopa de Letras</a> <a class="btn btn-outline-secondary mb-4" role="button" target="_blank" href="http://puzzel.org/es/jigsaw/play?p=-Nfm4rcn_9VY8sb3p0tv">Rompecabezas</a>
+        </p>
+    <footer id="personal-info">
+        <br>Por: David Ricardo Neira Cáceres <br>
+        Contacto: <a target="_blank" href="http://www.facebook.com/johana.caceres1">Facebook</a> <br>
+        <a id="mail-link" href="mailto:davidricardoneiracaceres@hotmail.com">davidricardoneiracaceres@hotmail.com</a> <br>
+        Instituto Virtual Skolmi - Grado 10° <br> <br> <br>
+        <img src="img/creator-picture.jpg" alt="" width="400" class="image grow">
+    </footer>
+    <footer id="start-button"><a href="#Inicio">Volver a inicio</a></footer>
+    </body>
+</html>
